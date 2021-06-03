@@ -1,0 +1,90 @@
+@font-face {
+    src: url(/Users/mac/Desktop/Python/HTML/ARTOIS.ttf);
+    font-family: artois;
+}
+
+html {
+background-color: white;
+color:rgba(255, 30, 0, 0.753);
+font-family:Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+}
+
+
+
+
+
+.page1 {
+    background-color: white;
+}
+
+.contact
+/* this is a comment */
+
+/* this is index */
+
+h1{
+    font-weight: bolder;
+    color:white;
+}
+
+
+/* this section for contact */
+
+/* this is for classes */
+
+/* this is for ID's */
+
+.box {
+    background-color:rgba(196,31,43,255);
+    color:rgb(196,31,43,255);
+    margin: 30px;
+    border:rgb(215,183,111,255) 20px solid;
+    border-radius: 10px;
+    border-style:ridge;
+    
+}
+
+#picturebox {
+    /* display:flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    width: 300px;
+    height: auto;
+    position: relative;
+}
+
+#picturebox img {
+    width: 50px;
+    height: 50px;
+}
+
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 90px;
+    color:rgba(196,31,43,255);
+    padding:30px;
+}
+
+#navbar li  {
+    font-size: 50px;
+    font-family: artois;
+    font-weight:bolder;
+    color:rgba(196,31,43,255);
+    
+}
+#navbar li  :hover {
+    color:rgb(215,183,111,255);
+
+}
+#navbar li a {
+    color:white
+}
+
+
+
+
+
